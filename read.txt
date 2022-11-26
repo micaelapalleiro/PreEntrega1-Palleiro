@@ -1,0 +1,91 @@
+REACT 
+Acceder al DOM --> document 
+document.queryselector.().innerHTML= modificacion
+Fiber tree
+rect detecta la zona del evento y cambia la seccion correspondiente y no toda la pagina
+procesa el cambio en un espacio memoria, determina la menor cantidad de movimiento posible 
+Flujo de datos unidireccional de arriba hacia abajo, los datos van siempre hacia un solo lado (no tendre ningun escape etc)
+REACT
+deja el html a lo minimo y maneja todo por JS
+los datos bajan 
+los eventos suben
+¿que es el virtual DOM?--->ES UNA COPIA DEL DOM que se almacena es un espacio memoria donde trabaja react 
+representacion de la interfaz 
+plasmado en el DOM verdadero -->reconciliacion
+
+
+Node--> entorno de programacion que me permite trabajar js en mi computadora 
+(ya que js es nativo del navegador)
+
+npm -->manejador de paquetes de node 
+funciona de dos maneras: como repositorio e instruccion de linea de comando
+
+CLI 
+intruccion por linea de comando
+dar instrucciones por linea de comando  
+
+
+Clase 3
+SUGGAR SINTAX
+comprime el codigo y lo hace mas legible 
+operador ternario, retorno implicito 
+Spread operator 
+combina arrays de otra maneras
+Propiedades dinamicas
+Me sirve para definir una propiedad de un objeto fuera del objeto (se delimita con corchetes)
+const campo = "_persona"
+const obj {
+    [id + "campo"]=sdhjad
+}
+deep matching
+destructuracion: quitar por propiedad de objeto 
+const{}= para objetos
+const[]=para arrays
+para obj 
+const {nombre=nombre}=obj
+el primer nombre es el nombre de la constante y el segundo nombre es la propiedad del objeto 
+--> const{nombre}=obj
+puedo destructurar la propiedad y redefinirla 
+Retrocompatibilidad 
+Polifills nos permite hacer nuestra aplicacion compatible con navegadores que no admiten cierta funcionabilidad 
+(se encarga react)
+
+WEBPACK 
+sirve para empaquetar, empaquetador de modulos. empaqueta todos los componentes en archivos estaticos leibles por cualqueir navegador
+usara un preprocesador de css 
+NO EJECUTAR NUNCA npm run eject (rompe el webpack)
+
+TRANSPILING
+Proceso parecido a Polifills
+
+JSX
+Interfaz parecida a html, los nombres de las etiquetas los usamos nosotros (extension de js, no es obligacion usarlo, es recomendado por react)
+renderizado: seccion de codigo que se importa 
+
+node_modules
+son todas las librerias instaladas 
+
+jsx (etiquetas en linea)
+en el return va lo que iria en un html 
+con las {} salgo de jsx, con las {} me salvo
+en caso de pegar un html
+cambiar class por className 
+cerrar todas las etiquetas 
+cuando es etiqueta padre se cierra de la forma convencional (como lo haciamos en html)
+para css usamos import
+siempre camelCase 
+
+CLASE 4 
+MODULOS (diseño modular)
+construyo uno solo y lo reutilizo, solo cambio el contenido
+COMPONENTE
+cada componente debe tener una sola funcion (ppio de funciones)
+un componente es una funcion que me retorna jsx
+todo va dentro de app 
+PROPIEDADES
+parametros nombre del parametro y el valor 
+react toma todas propiedades y las encapsula en un objeto 
+
+
+
+
